@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="wu.guo" duration-ms="40" started-at="2018-02-07T07:23:36Z" finished-at="2018-02-07T07:23:36Z">
+  <suite name="wu.guo" duration-ms="37" started-at="2018-02-08T10:10:46Z" finished-at="2018-02-08T10:10:46Z">
     <groups>
-      <group name="submodule2">
-        <method signature="Testng3.testSubModule2()[pri:0, instance:wu.guo.one.Testng3@2c9557e1]" name="testSubModule2" class="wu.guo.one.Testng3"/>
-      </group> <!-- submodule2 -->
-      <group name="submodule3">
-        <method signature="Testng3.testSubModule3()[pri:0, instance:wu.guo.one.Testng3@2c9557e1]" name="testSubModule3" class="wu.guo.one.Testng3"/>
-      </group> <!-- submodule3 -->
-      <group name="submodule1">
-        <method signature="Testng3.testSubModule1()[pri:0, instance:wu.guo.one.Testng3@2c9557e1]" name="testSubModule1" class="wu.guo.one.Testng3"/>
-      </group> <!-- submodule1 -->
     </groups>
-    <test name="testng3" duration-ms="40" started-at="2018-02-07T07:23:36Z" finished-at="2018-02-07T07:23:36Z">
-      <class name="wu.guo.one.Testng3">
-        <test-method status="PASS" signature="testSubModule1()[pri:0, instance:wu.guo.one.Testng3@2c9557e1]" name="testSubModule1" duration-ms="8" started-at="2018-02-07T15:23:36Z" finished-at="2018-02-07T15:23:36Z">
+    <test name="guowu" duration-ms="37" started-at="2018-02-08T10:10:46Z" finished-at="2018-02-08T10:10:46Z">
+      <class name="wu.guo.four.Practice1OnTestNG">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:wu.guo.four.Practice1OnTestNG@2befdb3]" name="test" duration-ms="11" started-at="2018-02-08T18:10:46Z" finished-at="2018-02-08T18:10:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\tool\test.properties]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSubModule1 -->
-        <test-method status="PASS" signature="testSubModule2()[pri:0, instance:wu.guo.one.Testng3@2c9557e1]" name="testSubModule2" duration-ms="2" started-at="2018-02-07T15:23:36Z" finished-at="2018-02-07T15:23:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSubModule2 -->
-        <test-method status="PASS" signature="testSubModule3()[pri:0, instance:wu.guo.one.Testng3@2c9557e1]" name="testSubModule3" duration-ms="2" started-at="2018-02-07T15:23:36Z" finished-at="2018-02-07T15:23:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSubModule3 -->
-      </class> <!-- wu.guo.one.Testng3 -->
-    </test> <!-- testng3 -->
+        </test-method> <!-- test -->
+      </class> <!-- wu.guo.four.Practice1OnTestNG -->
+    </test> <!-- guowu -->
   </suite> <!-- wu.guo -->
 </testng-results>

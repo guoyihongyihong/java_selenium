@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-wu.guo">
-                    <span>D:\BaiduYunDownload\java_selenium-master\src\main\java\wu\guo\one\test4.xml</span>
+                    <span>D:\BaiduYunDownload\java_selenium-master\src\main\java\wu\guo\four\testsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-wu.guo">
-                    <span>3 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,7 @@
                     <div class="method-list-content passed suite-wu.guo">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-wu.guo" title="wu.guo.one.Testng3" hash-for-method="testSubModule1">testSubModule1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-wu.guo" title="wu.guo.one.Testng3" hash-for-method="testSubModule2">testSubModule2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-wu.guo" title="wu.guo.one.Testng3" hash-for-method="testSubModule3">testSubModule3</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-wu.guo" title="wu.guo.four.Practice1OnTestNG" hash-for-method="test(\tool\test.properties)">test(\tool\test.properties)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-wu.guo -->
@@ -130,28 +120,15 @@
           <div class="suite-wu.guo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">wu.guo.one.Testng3</span>
+              <span class="class-name">wu.guo.four.Practice1OnTestNG</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testSubModule1">
-                  </a> <!-- testSubModule1 -->
-                  <span class="method-name">testSubModule1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSubModule2">
-                  </a> <!-- testSubModule2 -->
-                  <span class="method-name">testSubModule2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSubModule3">
-                  </a> <!-- testSubModule3 -->
-                  <span class="method-name">testSubModule3</span>
+                  <a name="test(\tool\test.properties)">
+                  </a> <!-- test(\tool\test.properties) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(\tool\test.properties)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,42 +136,23 @@
         </div> <!-- panel wu.guo -->
         <div panel-name="test-xml-wu.guo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\BaiduYunDownload\java_selenium-master\src\main\java\wu\guo\one\test4.xml</span>
+            <span class="header-content">D:\BaiduYunDownload\java_selenium-master\src\main\java\wu\guo\four\testsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;wu.guo&quot;&gt;
-  &lt;test name=&quot;testng3&quot;&gt;
-    &lt;groups&gt;
-      &lt;define name=&quot;submodule1&quot;&gt;
-      &lt;/define&gt; &lt;!-- submodule1 --&gt;
-      &lt;define name=&quot;submodule2&quot;&gt;
-      &lt;/define&gt; &lt;!-- submodule2 --&gt;
-      &lt;define name=&quot;submodule3&quot;&gt;
-      &lt;/define&gt; &lt;!-- submodule3 --&gt;
-      &lt;define name=&quot;module1&quot;&gt;
-        &lt;include name=&quot;submodule1&quot;/&gt;
-        &lt;include name=&quot;submodule2&quot;/&gt;
-      &lt;/define&gt; &lt;!-- module1 --&gt;
-      &lt;define name=&quot;module2&quot;&gt;
-        &lt;include name=&quot;submodule2&quot;/&gt;
-        &lt;include name=&quot;submodule3&quot;/&gt;
-      &lt;/define&gt; &lt;!-- module2 --&gt;
-      &lt;define name=&quot;module3&quot;&gt;
-        &lt;include name=&quot;submodule2&quot;/&gt;
-        &lt;include name=&quot;submodule3&quot;/&gt;
-      &lt;/define&gt; &lt;!-- module3 --&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;module1&quot;/&gt;
-        &lt;include name=&quot;module2&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
+  &lt;parameter name=&quot;TestData&quot; value=&quot;\tool\test.properties&quot;/&gt;
+  &lt;test name=&quot;guowu&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;wu.guo.one.Testng3&quot;/&gt;
+      &lt;class name=&quot;wu.guo.four.Practice1OnTestNG&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- wu.guo.four.Practice1OnTestNG --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- testng3 --&gt;
+  &lt;/test&gt; &lt;!-- guowu --&gt;
 &lt;/suite&gt; &lt;!-- wu.guo --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">testng3 (1 class)</span>
+                <span class="test-name">guowu (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -216,30 +174,6 @@
             <span class="header-content">Groups for wu.guo</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">submodule1</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSubModule1</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">submodule2</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSubModule2</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">submodule3</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSubModule3</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-wu.guo" class="panel">
@@ -256,24 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSubModule1')
-data.setCell(0, 2, 'wu.guo.one.Testng3')
-data.setCell(0, 3, 8);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testSubModule3')
-data.setCell(1, 2, 'wu.guo.one.Testng3')
-data.setCell(1, 3, 2);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testSubModule2')
-data.setCell(2, 2, 'wu.guo.one.Testng3')
-data.setCell(2, 3, 2);
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'wu.guo.four.Practice1OnTestNG')
+data.setCell(0, 3, 11);
 window.suiteTableData['wu.guo']= { tableData: data, tableDiv: 'times-div-wu.guo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 ms</span>
+              <span class="suite-total-time">Total running time: 11 ms</span>
               <div id="times-div-wu.guo">
               </div> <!-- times-div-wu.guo -->
             </div> <!-- times-div -->
@@ -299,18 +225,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">wu.guo.one.Testng3</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">wu.guo.four.Practice1OnTestNG</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testSubModule1</span>
+                <span class="method-name">test(\tool\test.properties)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testSubModule2</span>
-                <span class="method-start">12 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testSubModule3</span>
-                <span class="method-start">17 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
