@@ -18,5 +18,10 @@ public class Testng3 {
 	public void testSubModule3() {
 		System.out.println("Testng3.testSubModule3()");
 	}
+	
+	@Test(groups={"submodule3","submodule2"})
+	public void testSubModele4() {
+		System.out.println("Testng3.testSubModele4()");
+	}
 
 }

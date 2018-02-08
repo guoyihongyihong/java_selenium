@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
+
+<!--执行的文件是Testng3.java -->
 <suite name="wu.guo">
 	<test name="testng3" preserve-order="true">
 		<groups>
@@ -26,6 +28,7 @@
 			<run>
 				<include name="module1"></include>
 				<include name="module2"></include>
+				<include name="module3"></include>
 			</run>
 		</groups>
 

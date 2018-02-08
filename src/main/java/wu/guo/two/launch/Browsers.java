@@ -42,7 +42,7 @@ public class Browsers {
 				e.printStackTrace();
 			}
 			caps.setCapability(FirefoxDriver.PROFILE, firefoxprofile);
-			
+			driver = new FirefoxDriver(firefoxprofile);
 			driver.manage().window().maximize();
 			break;
 		case ie:
@@ -56,7 +56,7 @@ public class Browsers {
 					true);
 			caps.setCapability(InternetExplorerDriver.IE_SWITCHES, "-private");
 			caps.setCapability("ignoreZoomSetting", true);
-			
+			driver = new InternetExplorerDriver(caps);
 			driver.manage().window().maximize();
 			break;
 		case chrome:
@@ -68,7 +68,7 @@ public class Browsers {
 			// capabilities.setCapability("chrome.switches",
 			// Arrays.asList("--proxy-server=http://your-proxy-domain:4443"));
 			// //…Ë÷√¥˙¿Ì
-
+			driver = new ChromeDriver(caps);
 			driver.manage().window().maximize();
 			break;
 		}
