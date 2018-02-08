@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="wu.guo">  <!-- 1.suite可以包含多个groups元素，用以定义全局的组，该组对所有的测试可见 可以 包含多个test元素，一个test就定义了一个测试用例 -->
+	<test name="Testng1" verbose="2" preserve-order="true">  <!-- verbose 记录的是日志级别，从0-10 10表示最详细 preserve-order 控制@标识的测试用例的执行顺序，默认是false，在节点下面的所有 
+			方法的执行顺序是无需的 -->
+		<classes>
+			<class name="wu.guo.one.Testng1">
+				<methods>
+					<include name="aFastTest" />
+				</include>
+				</methods>
+			</class> <!-- practiceone.Practice1OnTestng -->
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="wu.guo">  <!-- 1.suite可以包含多个groups元素，用以定义全局的组，该组对所有的测试可见 可以 包含多个test元素，一个test就定义了一个测试用例 -->
+	<test verbose="2" name="testng1">
+		<classes>
+
+			<class name="wu.guo.one.Testng2">
+				<methods>
+					<include name="aFastTest" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+	<test verbose="2" name="testng2">
+		<classes>
+			<class name="wu.guo.one.Testng2">
+				<methods>
+					<include name="aFastTest" />
+					<include name="bFastTest" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+</suite>

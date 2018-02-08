@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="wu.guo">  <!-- 不同文件下的方法 -->
+	<test name="test3">
+		<classes>
+			<class name="wu.guo.one.Testng2">
+				<methods>
+					<include name="bSlowTest" />
+				</methods>
+			</class>
+			<!--<class name="practiceone.PracticeBase" />-->
+			<class name="wu.guo.one.Testng1">
+				<methods>
+					<include name="aFastTest" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+</suite>
