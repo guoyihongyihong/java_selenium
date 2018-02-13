@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [wu.guo]">
+  <parameter name="platform" value="FF"/>
+  <test name="work(failed)">
+    <groups>
+      <run>
+        <include name="browsers"/>
+        <include name="FF"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="wu.guo.two.work.MutipleBrowsers">
+        <methods>
+          <include name="submodule2"/>
+          <include name="submodule3"/>
+          <include name="inital"/>
+          <include name="release"/>
+        </methods>
+      </class> <!-- wu.guo.two.work.MutipleBrowsers -->
+    </classes>
+  </test> <!-- work(failed) -->
+</suite> <!-- Failed suite [wu.guo] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- 对应Practice1OnTestNG.java -->
+
+<suite name="wu.guo">
+	<parameter name="TestData" value="\tool\test.properties" />
+	<test name="guowu" preserve-order="true">
+		<classes>
+			<class name="wu.guo.four.Practice1OnTestNG">
+				<methods>
+					<include name="test"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>   

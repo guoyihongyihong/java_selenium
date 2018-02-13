@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="guo">
+	<test name="testIframe">
+		<classes>
+			<class name="wu.guo.five.TestCase">
+				<methods>
+					<include name="changeIframe" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
