@@ -8,7 +8,6 @@
 			<class name="wu.guo.one.Testng1">
 				<methods>
 					<include name="aFastTest" />
-				</include>
 				</methods>
 			</class> <!-- practiceone.Practice1OnTestng -->
 		</classes>

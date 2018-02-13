@@ -2,23 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="wu.guo" duration-ms="37" started-at="2018-02-08T10:10:46Z" finished-at="2018-02-08T10:10:46Z">
+  <suite name="guo" duration-ms="29949" started-at="2018-02-13T03:25:38Z" finished-at="2018-02-13T03:26:08Z">
     <groups>
     </groups>
-    <test name="guowu" duration-ms="37" started-at="2018-02-08T10:10:46Z" finished-at="2018-02-08T10:10:46Z">
-      <class name="wu.guo.four.Practice1OnTestNG">
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:wu.guo.four.Practice1OnTestNG@2befdb3]" name="test" duration-ms="11" started-at="2018-02-08T18:10:46Z" finished-at="2018-02-08T18:10:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[\tool\test.properties]]>
-              </value>
-            </param>
-          </params>
+    <test name="testIframe" duration-ms="29949" started-at="2018-02-13T03:25:38Z" finished-at="2018-02-13T03:26:08Z">
+      <class name="wu.guo.five.TestCase">
+        <test-method status="PASS" signature="startFirfox()[pri:0, instance:wu.guo.five.TestCase@5739e19c]" name="startFirfox" is-config="true" duration-ms="15593" started-at="2018-02-13T11:25:38Z" finished-at="2018-02-13T11:25:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- wu.guo.four.Practice1OnTestNG -->
-    </test> <!-- guowu -->
-  </suite> <!-- wu.guo -->
+        </test-method> <!-- startFirfox -->
+        <test-method status="PASS" signature="changeIframe()[pri:0, instance:wu.guo.five.TestCase@5739e19c]" name="changeIframe" duration-ms="14286" started-at="2018-02-13T11:25:53Z" finished-at="2018-02-13T11:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeIframe -->
+      </class> <!-- wu.guo.five.TestCase -->
+    </test> <!-- testIframe -->
+  </suite> <!-- guo -->
 </testng-results>
